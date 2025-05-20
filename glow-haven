@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>تجربة كريم البشرة المجاني | نعومة ونقاء لبشرتك</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(135deg, #a8e063, #56ab2f);
+      color: #2c3e50;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background: #ffffffdd;
+      max-width: 420px;
+      width: 100%;
+      border-radius: 20px;
+      padding: 30px 25px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .container:hover {
+      transform: scale(1.03);
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #2e7d32;
+    }
+
+    p.description {
+      font-size: 1rem;
+      color: #34495e;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+
+    img.product-img {
+      width: 100%;
+      border-radius: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      object-fit: cover;
+      height: 260px;
+    }
+
+    button.cta-btn {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 18px 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      border-radius: 40px;
+      width: 100%;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(46,125,50,0.4);
+      transition: background-color 0.3s ease;
+    }
+
+    button.cta-btn:hover {
+      background-color: #27632a;
+    }
+
+    small.note {
+      display: block;
+      margin-top: 18px;
+      font-size: 0.85rem;
+      color: #627d63;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 20px 15px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      img.product-img {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>جرب كريم البشرة المجاني اليوم!</h1>
+    <img class="product-img" src="https://i.pinimg.com/736x/24/51/27/2451277bfcba967b2af87eeefa438d19.jpg">
+      منتج طبيعي 100% يرطب البشرة، يقلل الحبوب والبقع، ومناسب للرجال والنساء على حد سواء.  
+      احصل على عينة مجانية الآن مع تغطية تكاليف الشحن فقط.
+    </p>
+    <button class="cta-btn" onclick="window.location.href='https://example.com/offer-link'">
+      اطلب عينتك المجانية الآن
+    </button>
+    <small class="note">العرض لفترة محدودة - لا تفوت الفرصة!</small>
+  </div>
+</body>
+</html>
